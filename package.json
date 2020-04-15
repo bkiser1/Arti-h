@@ -1,0 +1,22 @@
+{
+	"name": "artish",
+	"version": "1.0.0",
+	"description": "art and music app",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server",
+		"server": "nodemon server"
+	},
+	"author": "Brian Kiser",
+	"license": "MIT",
+	"dependencies": {
+		"config": "^3.3.1",
+		"expresss": "0.0.0",
+		"mongoose": "^5.9.9",
+		"path": "^0.12.7"
+	},
+	"devDependencies": {
+		"concurrently": "^5.1.0",
+		"nodemon": "^2.0.3"
+	}
+}
